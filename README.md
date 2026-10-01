@@ -24,13 +24,15 @@ O objetivo é aplicar a inteligência de dados na tomada de decisões estratégi
 
 ##  Projetos Práticos
 
-| # | Projeto | Foco Principal | Tecnologias / Conceitos SQL | Status |
+### 📊 Projetos de SQL & CX (`sql-queries`)
+
+| # | Projeto | Descrição | Conceitos & Tecnologias | Status |
 | :-: | :--- | :--- | :--- | :-: |
-| 01 | [`01-analise-churn-csat`](./01-analise-churn-csat) | Análise de Churn e CSAT | `INNER JOIN`, `CASE WHEN`, Agregações, Métricas de CX | ✅ Concluído |
-| 02 | `02-gargalos-suporte-sla` | Mapeamento de SLA em Suporte | `DATEDIFF`, `DATEADD`, Filtros de tempo | ⏳ Em breve |
-| 03 | `03-otimizacao-queries` | Otimização e Performance | `EXPLAIN`, Refatoração de subqueries para `JOIN` | ⏳ Em breve |
-| 04 | `04-segmentacao-rfm` | Segmentação de Clientes (RFM) | Window Functions (`NTILE`, `RANK`), CTEs | ⏳ Em breve |
-| 05 | `05-limpeza-duplicidades` | Auditoria e Data Cleaning | CTEs, `ROW_NUMBER()`, Funções de Texto | ⏳ Em breve |
+| 01 | [`01-analise-churn-csat`](https://github.com/salves-sandy/sql-queries/tree/main/01-analise-churn-csat) | Análise de Churn e CSAT | `INNER JOIN`, `CASE WHEN`, Agregações, Métricas de CX | ✅ Concluído |
+| 02 | [`02-gargalos-suporte-sla`](https://github.com/salves-sandy/sql-queries/tree/main/02-gargalos-suporte-sla) | Mapeamento de SLA em Suporte | `DATEDIFF`, Expressões Condicionais, Métricas de Atendimento | ✅ Concluído |
+| 03 | [`03-otimizacao-consulta-financeira`](https://github.com/salves-sandy/sql-queries/tree/main/03-otimizacao-consulta-financeira) | Otimização de Consulta Financeira | Refatoração para `JOIN`, Agregação Condicional, Índices | ✅ Concluído |
+| 04 | [`04-segmentacao-rfm-clientes`](https://github.com/salves-sandy/sql-queries/tree/main/04-segmentacao-rfm-clientes) | Segmentação de Clientes (RFM) | CTEs (`WITH`), Agregações, Classificação RFM e Ações de CX | ✅ Concluído |
+| 05 | [`05-limpeza-duplicidades-dados`](https://github.com/salves-sandy/sql-queries/tree/main/05-limpeza-duplicidades-dados) | Auditoria e Limpeza de Dados | `ROW_NUMBER()`, CTEs, Normalização de Strings (`TRIM`, `LOWER`) | ✅ Concluído |
 
 ---
 
